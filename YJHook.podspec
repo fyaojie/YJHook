@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 hook 工具类,用于拦截OC方法,添加相关处理
                        DESC
 
-  s.homepage         = 'https://github.com/562925462@qq.com/YJHook'
+  s.homepage         = 'https://github.com/fyaojie/YJHook'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '562925462@qq.com' => 'yaojie.feng@symbio.com' }
-  s.source           = { :git => 'https://github.com/562925462@qq.com/YJHook.git', :tag => s.version.to_s }
+  s.author           = { 'fyaojie' => 'yaojie.feng@symbio.com' }
+  s.source           = { :git => 'https://github.com/fyaojie/YJHook.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
